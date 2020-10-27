@@ -14,7 +14,7 @@
 
 .swipeButtons__repeat {
   padding: 3vw !important;
-  color: red !important;
+  color: green !important;
 }
 
 .swipeButtons__left {
@@ -23,11 +23,11 @@
 }
 .swipeButtons__star {
   padding: 3vw !important;
-  color: aqua !important;
+  color: yellowgreen !important;
 }
 .swipeButtons__right {
   padding: 3vw !important;
-  color: aqua !important;
+  color: red !important;
 }
 .swipeButtons__lightning {
   padding: 3vw !important;
