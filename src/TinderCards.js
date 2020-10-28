@@ -3,13 +3,23 @@ import "./TinderCards.css";
 import TinderCard from "react-tinder-card";
 import { SwipeableDrawer } from "@material-ui/core";
 import axios from "./axios";
+import endLine from "./endLine.jpg";
 
 function TinderCards() {
   const [people, setPeople] = useState([
     {
+      name: "",
+      imgUrl: "https://i.imgur.com/Ek6kW2ol.jpg",
+    },
+    {
       name: "Al Pacino",
       imgUrl:
         "https://upload.wikimedia.org/wikipedia/commons/9/98/Al_Pacino.jpg",
+    },
+    {
+      name: "Marilyn Monroe",
+      imgUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Marilyn_Monroe_postcard.JPG/800px-Marilyn_Monroe_postcard.JPG",
     },
     {
       name: "Kevin Spacey",
@@ -20,6 +30,11 @@ function TinderCards() {
       name: "Scarlet Johansson",
       imgUrl:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%29.jpg/396px-Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%29.jpg",
+    },
+    {
+      name: "Bibi Andersson",
+      imgUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Bibi_Andersson_%281961%29.jpg/220px-Bibi_Andersson_%281961%29.jpg",
     },
   ]);
 
