@@ -6,7 +6,7 @@ import cors from "cors";
 //APP Config
 const app = express();
 const PORT = process.env.PORT || 5000;
-const connection_url = `mongodb+srv://dating:H7DIDsacWOAJ5qh9@cluster0.wwoyo.mongodb.net/datingDB?retryWrites=true&w=majority`;
+//ADD YOUR MONGODB INSTANCE HERE
 
 //Middleware
 app.use(express.json());
