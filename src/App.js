@@ -8,6 +8,9 @@ function App() {
   return (
     <div className="app">
       <Header />
+      <h1 style={{ textAlign: "center", marginBottom: 0 }}>
+        Swipe right if you like'em !{" "}
+      </h1>
       <TinderCards />
       <SwipeButtons />
     </div>
